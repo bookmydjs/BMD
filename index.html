@@ -20,7 +20,8 @@
         <link rel='stylesheet' id='dj-booking-style-css' href='https://bookmydjs.github.io/BMD/css/style.css' type='text/css' media='all' />
     </head>
 
-    <body class="home page-template-default page page-id-4"><!-- Navigation -->
+    <body class="home page-template-default page page-id-4">
+        <!-- Navigation -->
         <nav class="fixed w-full bg-white/80 backdrop-blur-md shadow-sm z-50">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="flex justify-between h-16 items-center">
@@ -128,7 +129,15 @@
                             <h2 class="text-2xl font-bold mb-4">What type of event do you need a DJ for?</h2>
                             <div class="space-y-3">
                                 <label class="flex items-center space-x-3">
-                                    <input type="radio" name="event_type" value="birthday_adult" class="form-radio">
+                                    <input type="radio" name="event_type" value="wedding" class="form-radio">
+                                    <span>Wedding</span>
+                                </label>
+                                <label class="flex items-center space-x-3">
+                                    <input type="radio" name="event_type" value="office">
+                                    <span>Office party</span>
+                                </label>
+                                <label class="flex items-center space-x-3">
+                                    <input type="radio" name="event_type" value="birthday_adult">
                                     <span>Birthday Party - Adult</span>
                                 </label>
                                 <label class="flex items-center space-x-3">
@@ -138,14 +147,6 @@
                                 <label class="flex items-center space-x-3">
                                     <input type="radio" name="event_type" value="cultural">
                                     <span>Cultural festivals</span>
-                                </label>
-                                <label class="flex items-center space-x-3">
-                                    <input type="radio" name="event_type" value="office">
-                                    <span>Office party</span>
-                                </label>
-                                <label class="flex items-center space-x-3">
-                                    <input type="radio" name="event_type" value="wedding">
-                                    <span>Wedding</span>
                                 </label>
                                 <label class="flex items-center space-x-3">
                                     <input type="radio" name="event_type" value="other" onclick="toggleOther('event_type_other')" class="form-radio">
@@ -617,7 +618,7 @@
                             <h2 class="text-2xl font-bold mb-4">Review and Submit</h2>
                             <p class="text-gray-600 mb-6">Please review your selections before submitting.</p>
                             <div class="mt-6 flex justify-between">
-                                <button type="button" onclick="prevStep(11)" class="px-4 py-2 border border-gray-300 rounded-lg hover:bg-gray-50">
+                                <button type="button" onclick="prevStep(10)" class="px-4 py-2 border border-gray-300 rounded-lg hover:bg-gray-50">
                                         Back
                                     </button>
                                 <button type="submit" class="submit-button px-4 py-2 bg-indigo-600 text-white rounded-lg hover:bg-indigo-500">
