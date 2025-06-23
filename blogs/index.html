@@ -86,37 +86,6 @@
     mobileMenu.classList.toggle('hidden');
   });
 </script>
-  <script>
-    const blogs = [
-      {
-        title: "Why Hire a DJ in Bangalore for Your Event?",
-        link: "/blogs/blog1",
-        desc: "Top reasons why hiring a professional DJ will elevate your event experience in Bangalore."
-      },
-      {
-        title: "Types of DJs You Can Hire in Bangalore",
-        link: "blog2.html",
-        desc: "From weddings to corporate parties, discover the best DJs available for every occasion."
-      },
-      {
-        title: "How to Choose the Best DJ in Bangalore",
-        link: "blog3.html",
-        desc: "What to look for when hiring the perfect DJ for your event in the city."
-      }
-    ];
-
-    const blogList = document.getElementById("blog-list");
-    blogs.forEach(blog => {
-      const div = document.createElement("div");
-      div.className = "bg-gray-100 p-6 rounded-lg shadow hover:shadow-lg transition duration-300";
-      div.innerHTML = `
-        <h2 class="text-xl font-semibold mb-2">${blog.title}</h2>
-        <p class="text-sm mb-4">${blog.desc}</p>
-        <a href="${blog.link}" class="text-indigo-600 hover:underline">Read more →</a>
-      `;
-      blogList.appendChild(div);
-    });
-  </script>
         <!-- Footer -->
         <footer class="bg-gray-900 text-gray-300">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
@@ -167,5 +136,36 @@
                 </div>
             </div>
         </footer>
+ <script>
+    const blogs = [
+      {
+        title: "Why Hire a DJ in Bangalore for Your Event?",
+        link: "/blogs/blog1",
+        desc: "Top reasons why hiring a professional DJ will elevate your event experience in Bangalore."
+      },
+      {
+        title: "Types of DJs You Can Hire in Bangalore",
+        link: "blog2.html",
+        desc: "From weddings to corporate parties, discover the best DJs available for every occasion."
+      },
+      {
+        title: "How to Choose the Best DJ in Bangalore",
+        link: "blog3.html",
+        desc: "What to look for when hiring the perfect DJ for your event in the city."
+      }
+    ];
+
+    const blogList = document.getElementById("blog-list");
+    blogs.forEach(blog => {
+      const div = document.createElement("div");
+      div.className = "bg-gray-100 p-6 rounded-lg shadow hover:shadow-lg transition duration-300";
+      div.innerHTML = `
+        <h2 class="text-xl font-semibold mb-2">${blog.title}</h2>
+        <p class="text-sm mb-4">${blog.desc}</p>
+        <a href="${blog.link}" class="text-indigo-600 hover:underline">Read more →</a>
+      `;
+      blogList.appendChild(div);
+    });
+  </script>
 </body>
 </html>
