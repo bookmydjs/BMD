@@ -77,7 +77,7 @@ Text Domain: dj-booking
 
 .header p {
     font-size: 1.2rem;
-    color: #666;
+    color: #ffffff;
 }
 
 .match-container {
@@ -112,7 +112,7 @@ Text Domain: dj-booking
 .dj-profile {
     background: #0f172a;
     border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px rgba(213, 39, 119, 0.1);
     overflow: hidden;
     transition: transform 0.2s;
     width: 100%;
@@ -198,11 +198,11 @@ Text Domain: dj-booking
 .profile-header h3 {
     font-size: 1.5rem;
     font-weight: bold;
-    color: #1a1a1a;
+    color: #ffffff;
 }
 
 .match-percentage {
-    background: #4f46e5;
+    background: #db2777;
     color: white;
     padding: 5px 10px;
     border-radius: 15px;
@@ -219,7 +219,7 @@ Text Domain: dj-booking
 }
 
 .details p {
-    color: #666;
+    color: #ffffff;
     margin-bottom: 5px;
 }
 
@@ -227,7 +227,7 @@ Text Domain: dj-booking
     display: inline-block;
     padding: 8px 20px;
     margin-right: 10px;
-    background-color: #4f46e5;
+    background-color: #db2777;
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -236,7 +236,7 @@ Text Domain: dj-booking
 }
 
 .contact-button:hover {
-    background-color: #4338ca;
+    background-color: pink-400;
 }
 
 .btn-center {
@@ -247,7 +247,7 @@ Text Domain: dj-booking
 .goback-btn {
     display: inline-block;
     padding: 12px 30px;
-    background-color: #4f46e5;
+    background-color: #db2777;
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -255,7 +255,7 @@ Text Domain: dj-booking
 }
 
 .goback-btn:hover {
-    background-color: #4338ca;
+    background-color: pink-400;
 }
 
 @media (max-width: 768px) {
