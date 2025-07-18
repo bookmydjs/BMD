@@ -29,8 +29,8 @@ Text Domain: dj-booking
 }
 
 .suggestion-item:hover {
-    background-color: #f3f4f6; /* Tailwind gray-100 */
-    color: #4f46e5; /* Tailwind indigo-600 */
+    background-color: grey
+    color: pink-600
 }
 
 .loading-screen {
