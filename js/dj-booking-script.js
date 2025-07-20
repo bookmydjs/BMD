@@ -807,33 +807,6 @@ function scrollToHero() {
 }
 
 function handleClose() {
-    // Reset form
-    const form = document.getElementById('modalForm');
-    form.reset();
-
-    // Reset all steps visibility
-    document.querySelectorAll('.form-step').forEach(step => {
-        step.style.display = 'none';
-    });
-    document.getElementById('step2').style.display = 'none';
-
-    // Reset all other inputs
-    document.querySelectorAll('.other-input').forEach(input => {
-        input.value = '';
-        input.disabled = true;
-    });
-
-    // Reset location input
-    document.getElementById('location').value = '';
-    document.getElementById('modalLocation').value = '';
-
-    // Reset wedding events and age sections
-    document.getElementById('wedding-events').style.display = 'none';
-    document.getElementById('age-content').style.display = 'block';
-    document.getElementById('adult-ages').style.display = 'block';
-    document.getElementById('child-ages').style.display = 'none';
-
-    // Reset progress
-    updateProgress(1);
+   
 }
 
