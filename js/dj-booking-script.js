@@ -506,7 +506,7 @@ document.getElementById('modalForm').addEventListener('submit', function(e) {
 
             if (response.ok) {
                 // Redirect on success
-                window.location.href = "/matches";
+                window.location.href = "https://bookmydjs.in/matches/";
             } else {
                 throw new Error(responseData.message || 'Form submission failed');
             }
