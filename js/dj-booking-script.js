@@ -807,6 +807,6 @@ function scrollToHero() {
 }
 
 function handleClose() {
-   
+showConfirmModal();   
 }
 
